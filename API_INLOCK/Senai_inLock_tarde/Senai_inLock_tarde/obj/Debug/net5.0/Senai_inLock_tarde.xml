@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai_inLock_tarde</name>
+    </assembly>
+    <members>
+        <member name="P:Senai_inLock_tarde.Controller.JogosController._jogoRepository">
+            <summary>
+            Objeto jogoRepository irá receber todos os métodos definidos na interface IJogoRepository
+            </summary>
+        </member>
+        <member name="M:Senai_inLock_tarde.Controller.JogosController.Get">
+            <summary>
+            Lista todos os generos
+            </summary>
+            <returns>Lista e um status code </returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Controller.JogosController.Post(Senai_inLock_tarde.Domain.JogoDomain)">
+            <summary>
+            Cadastra um novo gênero
+            </summary>
+            <returns>status code 201 - Created</returns>
+        </member>
+        <member name="T:Senai_inLock_tarde.Domain.EstudioDomain">
+            <summary>
+            Classe que representa a entidade (Tabela) Estudio do Banco de dados do inLock.
+            </summary>
+        </member>
+        <member name="T:Senai_inLock_tarde.Domain.JogoDomain">
+            <summary>
+            Classe que representa a entidade (Tabela) Jogos do Banco de dados do inLock.
+            </summary>
+        </member>
+        <member name="T:Senai_inLock_tarde.Domain.TipoUsuarioDomain">
+            <summary>
+            Classe que representa a entidade (Tabela) Tipos de usuarios do Banco de dados do inLock.
+            </summary>
+        </member>
+        <member name="T:Senai_inLock_tarde.Domain.UsuarioDomain">
+            <summary>
+            Classe que representa a entidade (Tabela) Usuario do Banco de dados do inLock.
+            </summary>
+        </member>
+        <member name="T:Senai_inLock_tarde.Interface.IEstudioRepository">
+            <summary>
+            Interface Responsavel pelo repositório EstudioRepository
+            </summary>[
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IEstudioRepository.ListarTodos">
+            <summary>
+            Retorna todos os estudios.
+            </summary>
+            <return>Uma lista de Estudios</return>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IEstudioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um estudio através do seu ID.
+            </summary>
+            <param name="id"></param>
+            <returns>Um objeto do tipo EstudioDomain que foi buscado</returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IEstudioRepository.Cadastrar(Senai_inLock_tarde.Domain.EstudioDomain)">
+            <summary>
+            Cadastra um novo estudio
+            </summary>
+            <param name="novoEstudio"></param>
+        </member>
+        <member name="T:Senai_inLock_tarde.Interface.IJogoRepository">
+            <summary>
+            Interface responsavel pelo repositorio JogoRepository
+            </summary>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IJogoRepository.ListarTodos">
+            <summary>
+            Retorna todos os Jogos .
+            </summary>
+            <returns>Uma lista de Jogos</returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IJogoRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um jogo através do seu ID .
+            </summary>
+            <param name="id"></param>
+            <returns>um objeto do tipo JogoDomain que foi buscado </returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IJogoRepository.Cadastrar(Senai_inLock_tarde.Domain.JogoDomain)">
+            <summary>
+            Cadastra um novo Jogo.
+            </summary>
+            <param name="novoJogo"></param>
+        </member>
+        <member name="T:Senai_inLock_tarde.Interface.ITipoUsuarioRepository">
+            <summary>
+            Interface responsavel pelo repositorio TipoUsuario
+            </summary>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.ITipoUsuarioRepository.ListarTodos">
+            <summary>
+            Retorna Todos os tipos de Usuarios 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.ITipoUsuarioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um tipo de Usuario através do seu ID .
+            </summary>
+            <param name="id"></param>
+            <returns>um objeto do tipo JogoDomain que foi buscado </returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.ITipoUsuarioRepository.Cadastrar(Senai_inLock_tarde.Domain.TipoUsuarioDomain)">
+            <summary>
+            Cadastra um novo Jogo.
+            </summary>
+            <param name="novoUsuario"></param>
+        </member>
+        <member name="T:Senai_inLock_tarde.Interface.IUsuarioRepository">
+            <summary>
+            Interface responsável pelo Repositorio Usuario
+            </summary>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IUsuarioRepository.ListarTodos">
+            <summary>
+            Retorna todos os Usuarios
+            </summary>
+            <returns>Uma lista de usuarios</returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IUsuarioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um Usuario pelo ID
+            </summary>
+            <param name="id"></param>
+            <returns>Um tipo de usario por id</returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Interface.IUsuarioRepository.Cadastrar(Senai_inLock_tarde.Domain.UsuarioDomain)">
+            <summary>
+            Cadastra um novo usuario
+            </summary>
+            <param name="novoUsuario"></param>
+        </member>
+        <member name="T:Senai_inLock_tarde.Repositories.EstudioRepository">
+            <summary>
+            Classe Responsavel pelo repositorio dos Estudios
+            </summary>
+        </member>
+        <member name="M:Senai_inLock_tarde.Repositories.EstudioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            String de conexão com o Banco de Dados que recebe os parametros.
+            
+            Data Source = Nome do Servidor 
+            initial catalog = nome do banco de dados 
+            user ID = sa; pwd = 35834520898 = faz a autenticação com o usuario do sql server passando logon e senha
+            integrated security = true = faz a autenticação com o usuario do sistema (Windows)
+            </summary>
+        </member>
+        <member name="F:Senai_inLock_tarde.Repositories.JogoRepository.stringConexao">
+            <summary>
+            String de conexão com o Banco de Dados que recebe os parametros.
+            
+            Data Source = DESKTOP-CRR2THJ 
+            initial catalog = inlock_games_tarde
+            user ID = sa; pwd = xxxxxxxxxxxxxx = faz a autenticação com o usuario do sql server passando logon e senha
+            integrated security = true = faz a autenticação com o usuario do sistema (Windows)
+            </summary>
+            
+        </member>
+        <member name="M:Senai_inLock_tarde.Repositories.JogoRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um jogo através do seu id
+            </summary>
+            <param name="id"></param>
+            <returns>um jogo buscado ou null caso não seja encontrado</returns>
+        </member>
+        <member name="M:Senai_inLock_tarde.Repositories.JogoRepository.Cadastrar(Senai_inLock_tarde.Domain.JogoDomain)">
+            <summary>
+            Cadastra um novo jogo
+            </summary>
+            <param name="novoJogo"></param>
+        </member>
+        <member name="M:Senai_inLock_tarde.Repositories.JogoRepository.ListarTodos">
+            <summary>
+            Lista todos os jogos
+            </summary>
+            <returns>uma lista de jogos</returns>
+        </member>
+        <member name="F:Senai_inLock_tarde.Repositories.UsuarioRepository.stringConexao">
+            <summary>
+            String de conexão com o Banco de Dados que recebe os parametros.
+            
+            Data Source = Nome do Servidor 
+            initial catalog = nome do banco de dados 
+            user ID = sa; pwd = 35834520898 = faz a autenticação com o usuario do sql server passando logon e senha
+            integrated security = true = faz a autenticação com o usuario do sistema (Windows)
+            </summary>
+            
+        </member>
+    </members>
+</doc>

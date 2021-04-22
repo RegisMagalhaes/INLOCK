@@ -28,3 +28,17 @@ C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\
 C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\obj\Debug\net5.0\ref\Senai_inLock_tarde.dll
 C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\obj\Debug\net5.0\Senai_inLock_tarde.pdb
 C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\obj\Debug\net5.0\Senai_inLock_tarde.genruntimeconfig.cache
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Senai_inLock_tarde.xml
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\obj\Debug\net5.0\Senai_inLock_tarde.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luana e Regis\Desktop\Segundo Semestre Senai\PROJETO_INLOCK\API_INLOCK\Senai_inLock_tarde\Senai_inLock_tarde\obj\Debug\net5.0\Senai_inLock_tarde.xml
