@@ -100,14 +100,15 @@ namespace Senai_inLock_tarde.Repositories
 
 
                 //Declara a query que será executada
-                string queryInsert = "INSERT INTO jogos(nomeJogo) VALUES (@nomeJogo)";
+                string queryInsert = "INSERT INTO jogos(nomeJogo, dataLancamento) VALUES (@nomeJogo, @dataLancamento)";
 
                 //Declara que o SqlCommand cmd passando a query que será executada e a conexão como parametros
                 using (SqlCommand cmd = new SqlCommand(queryInsert, con))
                 {
-                    //Passa o valor para o parâmetro @nomeJogo
-                    cmd.Parameters.AddWithValue("@nomeJogo", novoJogo.nomeJogo);
 
+                    cmd.Parameters.AddWithValue("@nomeJogo", novoJogo.nomeJogo);
+                    cmd.Parameters.AddWithValue("@dataLancamento", novoJogo.dataLancamento);
+                   
                     //Abre a conexão com o banco de dados
                     con.Open();
 

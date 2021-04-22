@@ -52,5 +52,23 @@ namespace Senai_inLock_tarde.Controller
             return Ok(listaJogos);
         }
 
+
+        /// <summary>
+        /// Cadastra um novo gênero
+        /// </summary>
+        /// <returns>status code 201 - Created</returns>
+        [HttpPost]
+
+        public IActionResult Post(JogoDomain novoJogo)
+        {
+            //Faz a chamada para o método Cadastrar()
+            _jogoRepository.Cadastrar(novoJogo);
+
+            //Retorna um StatusCode 201 - Created
+            return StatusCode(201);
+        }
+
+       
+
     }
 }
